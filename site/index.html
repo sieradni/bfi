@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11171d">
+  <title>Trace · BFI Lab</title>
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="rules.js" defer></script>
+  <script src="play.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="kicker"><span aria-hidden="true"></span> BFI LAB <b>01</b></p>
+      <h1>Trace</h1>
+      <p class="intro">Cross every bridge once.<br>Finish at the diamond.</p>
+    </header>
+    <section class="instrument" aria-label="Trace puzzle">
+      <div class="meter" aria-hidden="true">
+        <span>BRIDGES</span>
+        <div id="ticks"></div>
+        <span id="count"></span>
+      </div>
+      <div class="board" id="board" aria-label="Choose a connected station" role="group">
+        <svg id="bridges" viewBox="0 0 360 232" preserveAspectRatio="none" aria-hidden="true"></svg>
+        <noscript>This puzzle needs JavaScript.</noscript>
+      </div>
+      <p id="status" role="status" aria-atomic="true">Choose a connected station to begin.</p>
+      <div class="controls">
+        <button type="button" id="undo" aria-disabled="true"><span aria-hidden="true">↶</span> Undo</button>
+        <button type="button" id="restart"><span aria-hidden="true">↺</span> Restart</button>
+      </div>
+    </section>
+    <footer>Tap a station or use the arrow keys.</footer>
+  </main>
+</body>
+</html>
