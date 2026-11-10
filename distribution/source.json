@@ -1,0 +1,36 @@
+{
+  "name": "BFI Lab",
+  "identifier": "io.github.sieradni.bfilab.source",
+  "sourceURL": "https://sieradni.github.io/bfi/source.json",
+  "subtitle": "Playable experiments by sieradni",
+  "iconURL": "https://sieradni.github.io/bfi/icon.png",
+  "website": "https://sieradni.github.io/bfi/",
+  "apps": [
+    {
+      "name": "BFI Lab",
+      "bundleIdentifier": "io.github.sieradni.bfilab",
+      "developerName": "sieradni",
+      "subtitle": "Small experiments in how games feel",
+      "localizedDescription": "BFI Lab starts with Trace. Find a route that crosses every bridge once and ends at the diamond. Undo any step and try a different route.",
+      "iconURL": "https://sieradni.github.io/bfi/icon.png",
+      "tintColor": "#F1D489",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-11-10T19:40:25Z",
+          "localizedDescription": "Play Trace, a one-board route puzzle with Undo and Restart.",
+          "downloadURL": "https://github.com/sieradni/bfi/releases/download/v0.1.0/BFILab-0.1.0.ipa",
+          "size": 37099,
+          "sha256": "00c4f33d90824725ac9fbc8370d34138e3d3cde583a9eb586c93a2d3067072f5",
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}

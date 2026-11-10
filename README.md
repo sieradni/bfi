@@ -10,7 +10,7 @@ An iOS-first game project that can be played and developed on Windows, macOS, Li
 
 ## Install on iPhone or iPad
 
-In SideStore, open **Sources → +** and paste `https://sieradni.github.io/bfi/source.json`. Add **BFI Lab**, then install it from **Browse**. Future releases appear as updates from the same source. The [GitHub releases](https://github.com/sieradni/bfi/releases) also include the IPA for direct sideloading. SideStore handles signing on your device. [SideStore setup](https://docs.sidestore.io/docs/installation/install.html)
+In SideStore, open **Sources → +** and paste `https://sieradni.github.io/bfi/source.json`. Add the source, then install **BFI Lab** from its listing. Future releases appear as updates from the same source. The [GitHub releases](https://github.com/sieradni/bfi/releases) also include the IPA for direct sideloading. SideStore handles signing on your device. [SideStore setup](https://docs.sidestore.io/docs/installation/install.html)
 
 ## Start a new session
 

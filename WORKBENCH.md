@@ -11,3 +11,5 @@
 **Decision and next step.** Keep one board while validating delivery. On the first iPhone install, watch someone play cold and record where they hesitate and what they thought would happen. Use that evidence to pick the next question before expanding the game.
 
 **Platform decision.** Plain browser files give Windows and other platforms a fast local loop. A small WKWebView shell bundles those exact files for offline iPhone play. This choice is provisional. Revisit it if a measured iOS limitation prevents a player experience worth keeping.
+
+**Delivery evidence.** GitHub Actions built [v0.1.0](https://github.com/sieradni/bfi/releases/tag/v0.1.0) from `09fefe9` on the macOS 26 runner. The public IPA matched its checksum, contained an arm64 iOS 16.0 app, and bundled the exact browser files. The SideStore feed uses that version and checksum. A physical-device SideStore install, offline launch, and first-time playtest are pending. An update test needs a second version.
